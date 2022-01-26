@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
                     />
                     <link
                         rel="shortcut icon"
-                        href="assets/favicon.ico"
+                        href="./favicon.ico"
                         type="image/x-icon"
                     />
                 </Head>
