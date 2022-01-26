@@ -43,8 +43,12 @@
                 height: 3px;
                 border-radius: 3px 3px 0 0;
                 width: 100%;
-                background-color: var(--yellow-500);
+                background-color: var(--amber-500);
             }
         }
+    }
+
+    button {
+        margin-left: auto;
     }
 }
