@@ -2,6 +2,7 @@ import codingImg from '../assets/images/coding.svg';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './home.module.scss';
+import { SubscribeButton } from '../components/SubscribeButton';
 
 export default function Home() {
     return (
@@ -19,9 +20,7 @@ export default function Home() {
                         Get access to all publications <br />
                         <span>for $4.90 / month</span>
                     </p>
-                    <a href="#" className={styles.cta}>
-                        Subscribe now
-                    </a>
+                    <SubscribeButton />
                 </section>
                 <Image
                     src={codingImg}

@@ -38,23 +38,7 @@
         }
     }
 
-    .cta {
-        margin-top: 1rem;
-        display: inline-block;
-        height: 3rem;
-        padding: 0 1.5rem;
-        line-height: 3rem;
-
-        background-color: var(--amber-500);
-        border-radius: 3rem;
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-        color: var(--gray-900);
-        font-weight: bold;
-
-        transition: background-color 0.1s ease-in-out;
-
-        &:hover {
-            background-color: var(--amber-600);
-        }
+    button {
+        margin-top: 1.5rem;
     }
 }
